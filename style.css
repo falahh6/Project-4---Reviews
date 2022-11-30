@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;500&display=swap');
+
+:root {
+    --clr-primary-5: hsl(205, 78%, 60%);
+}
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    margin-top: 4rem;
+}
+
+.card {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 35px;
+    border-radius: 10px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(226, 207, 191, 0.7721463585434174) 90%);
+}
+
+.card img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.card h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+
+.img .quote {
+    color: white;
+    position: absolute;
+    background-color: darkgoldenrod;
+    padding: 4px;
+    border-radius: 100%;
+    left: 569px;
+}
+
+/* .img div {
+    background-color: darkgoldenrod;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 9.5rem;
+    margin-left: 36.5rem;
+    z-index: -1;
+}
+
+.img::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--clr-primary-5);
+    position: relative;
+    top: -0.25rem;
+    right: -0.5rem;
+    border-radius: 50%;
+} */
+/* .img::after {
+    content: "\e244";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    transform: translateY(25%);
+    background: darkgoldenrod;
+    color: black;
+} */
+
+.card h5 {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+    color: #a25d39;
+}
+
+.card p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.one,
+.two {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: darkgrey;
+}
+
+.one:hover,
+.two:hover {
+    color: black;
+}
+
+.three {
+    display: block;
+    margin: 10px auto 0 auto;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 10rem;
+}
+
+.three:hover {
+    border: 1px solid #000000;
+}
